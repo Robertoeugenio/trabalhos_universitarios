@@ -1,0 +1,144 @@
+html {
+	margin: 0 auto;
+	width: 95%;
+	margin-top: 8px;
+}
+
+body {
+		   
+	font-family: font-family;
+	    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP6XtlQ3mowzz0jocHQ_p-g-U6k5RRCSRRNBH83SDaLt1n8pEbSg");
+
+}
+
+header {
+	text-align: center;
+	background-color:#F5DEB3;
+    border-bottom: solid 11px #D2B48C;
+    border-radius: 15px 15px 0px 0px;
+}
+
+header h1 {
+	text-shadow: 1px 1px 1px #F5DEB3;
+	color: #8B4513;
+	padding: 36px 10px 10px 10px;
+}
+
+header p {
+	color: #8B4513;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+section {
+	background-color: #F4A460;
+	padding: 25px;
+    border-radius: 0 0 13px 12px;
+	
+}
+
+input[type="text"] {
+	width: 94%;
+	border: 1px solid #8B4513;
+	padding: 11px;
+	border-radius: 18px;
+	
+}
+
+label {
+	font-weight: font-family;
+	display: block;
+	margin: 13px ;
+}
+
+.botoes {
+    text-align: center;
+    margin-top: 25px;
+    padding: 2px;
+}
+
+input[type='button'], input[type='reset'] {
+    background-color: #8B4513;
+	border-radius: 35px;
+    color: #D2B48C;
+	border: 1px solid #DEB887;
+    padding: 15px;
+    
+    
+}
+
+input[type='button']:hover, input[type='reset']:hover {
+		
+    cursor: pointer;
+    background-color: #D2691E;
+   
+}
+details summary {
+    color: #0000FF;
+    font-size: 20px;
+}
+
+progress {
+    width: 97%;
+}
+
+details {
+	cursor: pointer;
+    margin-top: 23px;
+    outline: none;
+}
+
+
+
+.invisivel {
+    display: none;
+}
+
+.visivel {
+    display: block;
+    margin-top: 15px;
+}
+
+/*-----   smartphone ------*/
+@media only screen and (min-width: 0) {
+    body {
+        margin: 0 4px;
+    }
+    input[type='button'], input[type='reset'] {
+        width: 86%;
+        margin-top: 12px;
+    }
+	/* ---   TABLETS    --- */
+@media only screen and (min-width:440px) {
+	body{
+		margin:0px;
+		padding:0px;
+		border:0px;
+	}
+	header h1{
+		line-height: 100%;
+	}
+	.imgCapa{
+		margin-right:20px;
+		float:right;
+	}
+	button{
+		width: 120px;
+	}
+	header{
+		margin-top:-20px;
+	}
+	#myProgress {
+		margin-left:8px;
+	}
+}
+	
+/*-----    desktop     ------*/    
+@media only screen and (min-width: 780px) {
+    body {
+        margin: 0 20%;
+    }
+    input[type='button'], input[type='reset'] {
+        width: 100px;
+    }
+}
